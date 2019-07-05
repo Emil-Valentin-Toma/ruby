@@ -1,0 +1,19 @@
+a =>
+b => c
+c => f
+d => a
+e => b
+f =>
+
+The result should be a sequence that positions f before c, c before b, b before e and a before d containing all six jobs abcdef.
+
+if primary_job IS NOT in entered_jobs
+append a (primary_job), no dependencies, results [a]
+append b (primary job), append c (dependency job), swap the last two, results [acb]
+
+elsif primary_job IS in entered_jobs
+entered
+
+
+
+fcbead
